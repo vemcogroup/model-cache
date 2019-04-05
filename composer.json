@@ -8,6 +8,7 @@
         "laravel"
     ],
     "homepage": "https://github.com/vemcogroup/model-cache",
+    "license": "MIT",
     "authors": [
         {
             "name": "Henrik B Hansen",
