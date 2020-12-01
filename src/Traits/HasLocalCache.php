@@ -13,7 +13,7 @@ trait HasLocalCache
 
     public static function getLocalCache($key)
     {
-        if ($cache = self::$localCache[$key]) {
+        if ($cache = (self::$localCache[$key] ?? null)) {
             return $cache;
         }
 
